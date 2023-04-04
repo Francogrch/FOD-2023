@@ -1,0 +1,3 @@
+ Producto 4 Descripcion del prod 13 10.50
+ Producto 6 Descripcion del prod 12 10.50
+ Producto 8 Descripcion del prod 13 10.50

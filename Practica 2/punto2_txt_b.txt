@@ -1,0 +1,7 @@
+ Nombre1 Apellido1 1 0 7 
+ Nombre4 Apellido4 4 0 10 
+ Nombre5 Apellido5 5 0 7 
+ Nombre6 Apellido6 6 0 6 
+ Nombre7 Apellido7 7 0 6 
+ Nombre8 Apellido8 8 0 12 
+ Nombre9 Apellido9 9 0 10 

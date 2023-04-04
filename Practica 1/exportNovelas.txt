@@ -1,0 +1,10 @@
+1234  1.2990000000000000E+001  drama
+El primer elemento
+5678  9.9900000000000002E+000  romance
+El tiempo entre cost
+9012  1.5990000000000000E+001  ciencia ficción
+El eternauta
+3456  8.5000000000000000E+000  aventura
+La isla del tesoro
+1234  2.8899999999999999E+001  drama
+La casa de los espí

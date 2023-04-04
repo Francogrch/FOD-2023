@@ -1,0 +1,14 @@
+1234 12.99 drama
+La casa de los espíritus
+
+5678 9.99 romance
+El tiempo entre costuras
+
+9012 15.99 ciencia ficción
+El eternauta
+
+3456 8.50 aventura
+La isla del tesoro
+
+7890 11.99 policial
+La ciudad y los perros
