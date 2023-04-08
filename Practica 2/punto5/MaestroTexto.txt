@@ -1,0 +1,198 @@
+-Numero Partida: 1.Nombre: nombre1.Apellido: apellido1
+Direccion: calle1.MatriculaMedicoNacimiento: 641.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle1
+-Numero Partida: 2.Nombre: nombre2.Apellido: apellido2
+Direccion: calle2.MatriculaMedicoNacimiento: 373.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle2
+-Numero Partida: 3.Nombre: nombre3.Apellido: apellido3
+Direccion: calle3.MatriculaMedicoNacimiento: 701.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle3
+-Numero Partida: 4.Nombre: nombre4.Apellido: apellido4
+Direccion: calle4.MatriculaMedicoNacimiento: 377.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle4
+-Numero Partida: 5.Nombre: nombre5.Apellido: apellido5
+Direccion: calle5.MatriculaMedicoNacimiento: 152.Nombre Madre: nombre5.Nombre Padre: nombre5.Vive: 0.MatMed_f: 511.Lugar: calle5
+-Numero Partida: 6.Nombre: nombre6.Apellido: apellido6
+Direccion: calle6.MatriculaMedicoNacimiento: 803.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle6
+-Numero Partida: 7.Nombre: nombre7.Apellido: apellido7
+Direccion: calle7.MatriculaMedicoNacimiento: 697.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle7
+-Numero Partida: 8.Nombre: nombre8.Apellido: apellido8
+Direccion: calle8.MatriculaMedicoNacimiento: 957.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle8
+-Numero Partida: 9.Nombre: nombre9.Apellido: apellido9
+Direccion: calle9.MatriculaMedicoNacimiento: 469.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle9
+-Numero Partida: 10.Nombre: nombre10.Apellido: apellido10
+Direccion: calle10.MatriculaMedicoNacimiento: 194.Nombre Madre: nombre10.Nombre Padre: nombre10.Vive: 0.MatMed_f: 542.Lugar: calle10
+-Numero Partida: 11.Nombre: nombre11.Apellido: apellido11
+Direccion: calle11.MatriculaMedicoNacimiento: 523.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle11
+-Numero Partida: 12.Nombre: nombre12.Apellido: apellido12
+Direccion: calle12.MatriculaMedicoNacimiento: 993.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle12
+-Numero Partida: 13.Nombre: nombre13.Apellido: apellido13
+Direccion: calle13.MatriculaMedicoNacimiento: 567.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle13
+-Numero Partida: 14.Nombre: nombre14.Apellido: apellido14
+Direccion: calle14.MatriculaMedicoNacimiento: 84.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle14
+-Numero Partida: 15.Nombre: nombre15.Apellido: apellido15
+Direccion: calle15.MatriculaMedicoNacimiento: 659.Nombre Madre: nombre15.Nombre Padre: nombre15.Vive: 0.MatMed_f: 536.Lugar: calle15
+-Numero Partida: 16.Nombre: nombre16.Apellido: apellido16
+Direccion: calle16.MatriculaMedicoNacimiento: 497.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle16
+-Numero Partida: 17.Nombre: nombre17.Apellido: apellido17
+Direccion: calle17.MatriculaMedicoNacimiento: 941.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle17
+-Numero Partida: 18.Nombre: nombre18.Apellido: apellido18
+Direccion: calle18.MatriculaMedicoNacimiento: 896.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle18
+-Numero Partida: 19.Nombre: nombre19.Apellido: apellido19
+Direccion: calle19.MatriculaMedicoNacimiento: 59.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle19
+-Numero Partida: 20.Nombre: nombre20.Apellido: apellido20
+Direccion: calle20.MatriculaMedicoNacimiento: 44.Nombre Madre: nombre20.Nombre Padre: nombre20.Vive: 0.MatMed_f: 308.Lugar: calle20
+-Numero Partida: 21.Nombre: nombre21.Apellido: apellido21
+Direccion: calle21.MatriculaMedicoNacimiento: 480.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle21
+-Numero Partida: 22.Nombre: nombre22.Apellido: apellido22
+Direccion: calle22.MatriculaMedicoNacimiento: 158.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle22
+-Numero Partida: 23.Nombre: nombre23.Apellido: apellido23
+Direccion: calle23.MatriculaMedicoNacimiento: 684.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle23
+-Numero Partida: 24.Nombre: nombre24.Apellido: apellido24
+Direccion: calle24.MatriculaMedicoNacimiento: 762.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle24
+-Numero Partida: 25.Nombre: nombre25.Apellido: apellido25
+Direccion: calle25.MatriculaMedicoNacimiento: 278.Nombre Madre: nombre25.Nombre Padre: nombre25.Vive: 0.MatMed_f: 42.Lugar: calle25
+-Numero Partida: 26.Nombre: nombre26.Apellido: apellido26
+Direccion: calle26.MatriculaMedicoNacimiento: 720.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle26
+-Numero Partida: 27.Nombre: nombre27.Apellido: apellido27
+Direccion: calle27.MatriculaMedicoNacimiento: 824.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle27
+-Numero Partida: 28.Nombre: nombre28.Apellido: apellido28
+Direccion: calle28.MatriculaMedicoNacimiento: 439.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle28
+-Numero Partida: 29.Nombre: nombre29.Apellido: apellido29
+Direccion: calle29.MatriculaMedicoNacimiento: 461.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle29
+-Numero Partida: 30.Nombre: nombre30.Apellido: apellido30
+Direccion: calle30.MatriculaMedicoNacimiento: 328.Nombre Madre: nombre30.Nombre Padre: nombre30.Vive: 0.MatMed_f: 282.Lugar: calle30
+-Numero Partida: 31.Nombre: nombre31.Apellido: apellido31
+Direccion: calle31.MatriculaMedicoNacimiento: 526.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle31
+-Numero Partida: 32.Nombre: nombre32.Apellido: apellido32
+Direccion: calle32.MatriculaMedicoNacimiento: 345.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle32
+-Numero Partida: 33.Nombre: nombre33.Apellido: apellido33
+Direccion: calle33.MatriculaMedicoNacimiento: 504.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle33
+-Numero Partida: 34.Nombre: nombre34.Apellido: apellido34
+Direccion: calle34.MatriculaMedicoNacimiento: 790.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle34
+-Numero Partida: 35.Nombre: nombre35.Apellido: apellido35
+Direccion: calle35.MatriculaMedicoNacimiento: 693.Nombre Madre: nombre35.Nombre Padre: nombre35.Vive: 0.MatMed_f: 328.Lugar: calle35
+-Numero Partida: 36.Nombre: nombre36.Apellido: apellido36
+Direccion: calle36.MatriculaMedicoNacimiento: 296.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle36
+-Numero Partida: 37.Nombre: nombre37.Apellido: apellido37
+Direccion: calle37.MatriculaMedicoNacimiento: 822.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle37
+-Numero Partida: 38.Nombre: nombre38.Apellido: apellido38
+Direccion: calle38.MatriculaMedicoNacimiento: 892.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle38
+-Numero Partida: 39.Nombre: nombre39.Apellido: apellido39
+Direccion: calle39.MatriculaMedicoNacimiento: 853.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle39
+-Numero Partida: 40.Nombre: nombre40.Apellido: apellido40
+Direccion: calle40.MatriculaMedicoNacimiento: 779.Nombre Madre: nombre40.Nombre Padre: nombre40.Vive: 0.MatMed_f: 770.Lugar: calle40
+-Numero Partida: 41.Nombre: nombre41.Apellido: apellido41
+Direccion: calle41.MatriculaMedicoNacimiento: 969.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle41
+-Numero Partida: 42.Nombre: nombre42.Apellido: apellido42
+Direccion: calle42.MatriculaMedicoNacimiento: 597.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle42
+-Numero Partida: 43.Nombre: nombre43.Apellido: apellido43
+Direccion: calle43.MatriculaMedicoNacimiento: 756.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle43
+-Numero Partida: 44.Nombre: nombre44.Apellido: apellido44
+Direccion: calle44.MatriculaMedicoNacimiento: 636.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle44
+-Numero Partida: 45.Nombre: nombre45.Apellido: apellido45
+Direccion: calle45.MatriculaMedicoNacimiento: 674.Nombre Madre: nombre45.Nombre Padre: nombre45.Vive: 0.MatMed_f: 611.Lugar: calle45
+-Numero Partida: 46.Nombre: nombre46.Apellido: apellido46
+Direccion: calle46.MatriculaMedicoNacimiento: 512.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle46
+-Numero Partida: 47.Nombre: nombre47.Apellido: apellido47
+Direccion: calle47.MatriculaMedicoNacimiento: 904.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle47
+-Numero Partida: 48.Nombre: nombre48.Apellido: apellido48
+Direccion: calle48.MatriculaMedicoNacimiento: 113.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle48
+-Numero Partida: 49.Nombre: nombre49.Apellido: apellido49
+Direccion: calle49.MatriculaMedicoNacimiento: 489.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle49
+-Numero Partida: 50.Nombre: nombre50.Apellido: apellido50
+Direccion: calle50.MatriculaMedicoNacimiento: 601.Nombre Madre: nombre50.Nombre Padre: nombre50.Vive: 0.MatMed_f: 859.Lugar: calle50
+-Numero Partida: 51.Nombre: nombre51.Apellido: apellido51
+Direccion: calle51.MatriculaMedicoNacimiento: 990.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle51
+-Numero Partida: 52.Nombre: nombre52.Apellido: apellido52
+Direccion: calle52.MatriculaMedicoNacimiento: 239.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle52
+-Numero Partida: 53.Nombre: nombre53.Apellido: apellido53
+Direccion: calle53.MatriculaMedicoNacimiento: 335.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle53
+-Numero Partida: 54.Nombre: nombre54.Apellido: apellido54
+Direccion: calle54.MatriculaMedicoNacimiento: 304.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle54
+-Numero Partida: 55.Nombre: nombre55.Apellido: apellido55
+Direccion: calle55.MatriculaMedicoNacimiento: 68.Nombre Madre: nombre55.Nombre Padre: nombre55.Vive: 0.MatMed_f: 841.Lugar: calle55
+-Numero Partida: 56.Nombre: nombre56.Apellido: apellido56
+Direccion: calle56.MatriculaMedicoNacimiento: 127.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle56
+-Numero Partida: 57.Nombre: nombre57.Apellido: apellido57
+Direccion: calle57.MatriculaMedicoNacimiento: 504.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle57
+-Numero Partida: 58.Nombre: nombre58.Apellido: apellido58
+Direccion: calle58.MatriculaMedicoNacimiento: 210.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle58
+-Numero Partida: 59.Nombre: nombre59.Apellido: apellido59
+Direccion: calle59.MatriculaMedicoNacimiento: 743.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle59
+-Numero Partida: 60.Nombre: nombre60.Apellido: apellido60
+Direccion: calle60.MatriculaMedicoNacimiento: 451.Nombre Madre: nombre60.Nombre Padre: nombre60.Vive: 0.MatMed_f: 752.Lugar: calle60
+-Numero Partida: 61.Nombre: nombre61.Apellido: apellido61
+Direccion: calle61.MatriculaMedicoNacimiento: 806.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle61
+-Numero Partida: 62.Nombre: nombre62.Apellido: apellido62
+Direccion: calle62.MatriculaMedicoNacimiento: 257.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle62
+-Numero Partida: 63.Nombre: nombre63.Apellido: apellido63
+Direccion: calle63.MatriculaMedicoNacimiento: 408.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle63
+-Numero Partida: 64.Nombre: nombre64.Apellido: apellido64
+Direccion: calle64.MatriculaMedicoNacimiento: 366.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle64
+-Numero Partida: 65.Nombre: nombre65.Apellido: apellido65
+Direccion: calle65.MatriculaMedicoNacimiento: 214.Nombre Madre: nombre65.Nombre Padre: nombre65.Vive: 0.MatMed_f: 481.Lugar: calle65
+-Numero Partida: 66.Nombre: nombre66.Apellido: apellido66
+Direccion: calle66.MatriculaMedicoNacimiento: 635.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle66
+-Numero Partida: 67.Nombre: nombre67.Apellido: apellido67
+Direccion: calle67.MatriculaMedicoNacimiento: 487.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle67
+-Numero Partida: 68.Nombre: nombre68.Apellido: apellido68
+Direccion: calle68.MatriculaMedicoNacimiento: 37.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle68
+-Numero Partida: 69.Nombre: nombre69.Apellido: apellido69
+Direccion: calle69.MatriculaMedicoNacimiento: 761.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle69
+-Numero Partida: 70.Nombre: nombre70.Apellido: apellido70
+Direccion: calle70.MatriculaMedicoNacimiento: 719.Nombre Madre: nombre70.Nombre Padre: nombre70.Vive: 0.MatMed_f: 336.Lugar: calle70
+-Numero Partida: 71.Nombre: nombre71.Apellido: apellido71
+Direccion: calle71.MatriculaMedicoNacimiento: 674.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle71
+-Numero Partida: 72.Nombre: nombre72.Apellido: apellido72
+Direccion: calle72.MatriculaMedicoNacimiento: 52.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle72
+-Numero Partida: 73.Nombre: nombre73.Apellido: apellido73
+Direccion: calle73.MatriculaMedicoNacimiento: 315.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle73
+-Numero Partida: 74.Nombre: nombre74.Apellido: apellido74
+Direccion: calle74.MatriculaMedicoNacimiento: 607.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle74
+-Numero Partida: 75.Nombre: nombre75.Apellido: apellido75
+Direccion: calle75.MatriculaMedicoNacimiento: 740.Nombre Madre: nombre75.Nombre Padre: nombre75.Vive: 0.MatMed_f: 601.Lugar: calle75
+-Numero Partida: 76.Nombre: nombre76.Apellido: apellido76
+Direccion: calle76.MatriculaMedicoNacimiento: 121.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle76
+-Numero Partida: 77.Nombre: nombre77.Apellido: apellido77
+Direccion: calle77.MatriculaMedicoNacimiento: 375.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle77
+-Numero Partida: 78.Nombre: nombre78.Apellido: apellido78
+Direccion: calle78.MatriculaMedicoNacimiento: 419.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle78
+-Numero Partida: 79.Nombre: nombre79.Apellido: apellido79
+Direccion: calle79.MatriculaMedicoNacimiento: 1.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle79
+-Numero Partida: 80.Nombre: nombre80.Apellido: apellido80
+Direccion: calle80.MatriculaMedicoNacimiento: 116.Nombre Madre: nombre80.Nombre Padre: nombre80.Vive: 0.MatMed_f: 642.Lugar: calle80
+-Numero Partida: 81.Nombre: nombre81.Apellido: apellido81
+Direccion: calle81.MatriculaMedicoNacimiento: 908.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle81
+-Numero Partida: 82.Nombre: nombre82.Apellido: apellido82
+Direccion: calle82.MatriculaMedicoNacimiento: 763.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle82
+-Numero Partida: 83.Nombre: nombre83.Apellido: apellido83
+Direccion: calle83.MatriculaMedicoNacimiento: 823.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle83
+-Numero Partida: 84.Nombre: nombre84.Apellido: apellido84
+Direccion: calle84.MatriculaMedicoNacimiento: 789.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle84
+-Numero Partida: 85.Nombre: nombre85.Apellido: apellido85
+Direccion: calle85.MatriculaMedicoNacimiento: 35.Nombre Madre: nombre85.Nombre Padre: nombre85.Vive: 0.MatMed_f: 198.Lugar: calle85
+-Numero Partida: 86.Nombre: nombre86.Apellido: apellido86
+Direccion: calle86.MatriculaMedicoNacimiento: 855.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle86
+-Numero Partida: 87.Nombre: nombre87.Apellido: apellido87
+Direccion: calle87.MatriculaMedicoNacimiento: 462.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle87
+-Numero Partida: 88.Nombre: nombre88.Apellido: apellido88
+Direccion: calle88.MatriculaMedicoNacimiento: 956.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle88
+-Numero Partida: 89.Nombre: nombre89.Apellido: apellido89
+Direccion: calle89.MatriculaMedicoNacimiento: 14.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle89
+-Numero Partida: 90.Nombre: nombre90.Apellido: apellido90
+Direccion: calle90.MatriculaMedicoNacimiento: 211.Nombre Madre: nombre90.Nombre Padre: nombre90.Vive: 0.MatMed_f: 25.Lugar: calle90
+-Numero Partida: 91.Nombre: nombre91.Apellido: apellido91
+Direccion: calle91.MatriculaMedicoNacimiento: 774.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle91
+-Numero Partida: 92.Nombre: nombre92.Apellido: apellido92
+Direccion: calle92.MatriculaMedicoNacimiento: 922.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle92
+-Numero Partida: 93.Nombre: nombre93.Apellido: apellido93
+Direccion: calle93.MatriculaMedicoNacimiento: 735.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle93
+-Numero Partida: 94.Nombre: nombre94.Apellido: apellido94
+Direccion: calle94.MatriculaMedicoNacimiento: 285.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle94
+-Numero Partida: 95.Nombre: nombre95.Apellido: apellido95
+Direccion: calle95.MatriculaMedicoNacimiento: 952.Nombre Madre: nombre95.Nombre Padre: nombre95.Vive: 0.MatMed_f: 583.Lugar: calle95
+-Numero Partida: 96.Nombre: nombre96.Apellido: apellido96
+Direccion: calle96.MatriculaMedicoNacimiento: 153.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle96
+-Numero Partida: 97.Nombre: nombre97.Apellido: apellido97
+Direccion: calle97.MatriculaMedicoNacimiento: 532.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle97
+-Numero Partida: 98.Nombre: nombre98.Apellido: apellido98
+Direccion: calle98.MatriculaMedicoNacimiento: 435.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle98
+-Numero Partida: 99.Nombre: nombre99.Apellido: apellido99
+Direccion: calle99.MatriculaMedicoNacimiento: 433.Nombre Madre: -1.Nombre Padre: -1.Vive: -1.MatMed_f: -1.Lugar: calle99

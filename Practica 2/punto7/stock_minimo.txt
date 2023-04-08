@@ -1,0 +1,10 @@
+Cod: 1.Nombre: 1. Precio 16.StockA: -17.Stock Min: 9
+Cod: 2.Nombre: 2. Precio 98.StockA: -1.Stock Min: 7
+Cod: 5.Nombre: 5. Precio 19.StockA: 1.Stock Min: 5
+Cod: 6.Nombre: 6. Precio 32.StockA: 3.Stock Min: 5
+Cod: 7.Nombre: 7. Precio 34.StockA: 1.Stock Min: 4
+Cod: 10.Nombre: 10. Precio 87.StockA: 5.Stock Min: 6
+Cod: 11.Nombre: 11. Precio 71.StockA: -1.Stock Min: 2
+Cod: 12.Nombre: 12. Precio 96.StockA: -2.Stock Min: 9
+Cod: 13.Nombre: 13. Precio 98.StockA: -1.Stock Min: 3
+Cod: 15.Nombre: 15. Precio 58.StockA: -1.Stock Min: 6
