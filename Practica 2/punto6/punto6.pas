@@ -67,25 +67,21 @@ procedure actualizarMaestro(var m:f_maestro;var a_d:a_detalle);
 	var
 		reg_m:maestro;
 	begin
-		leer(m,reg_m); //NO FUNCIONA
-		while (reg_m.codLoc <> valor_alto) and (reg_m.codLoc < act.codLoc) and (reg_m.codCepa < act.codCepa) do
-		begin	
-			writeln('CodLoc: ',reg_m.codLoc);
-			writeln('Cod: ',act.codLoc);
-			leer(m,reg_m);
-		end;
-		if (reg_m.codLoc <> valor_alto) then
+		read(m,reg_m); //NO FUNCIONA
+		while (reg_m.codLoc <> act.codLoc) do
+			read(m,reg_m);
+		while(reg_m.codCepa <> act.codCepa)do
+			read(m,reg_m);
+		with reg_m do
 		begin
-			with reg_m do
-			begin
-				cantAct:=act.cantAct;
-				cantNue:=act.cantNue;
-				cantRec:=act.cantRec;
-				cantFal:=act.cantFal;
-			end;
-			seek(m,filepos(m)-1);
-			write(m,reg_m);
+			cantAct:=act.cantAct;
+			cantNue:=act.cantNue;
+			cantRec:=act.cantRec;
+			cantFal:=act.cantFal;
 		end;
+		seek(m,filepos(m)-1);
+		write(m,reg_m);
+
 	end;
 var
 	i:integer;
