@@ -1,0 +1,37 @@
+Algoritmica basica sobre archivos
+11/4 BAJAS
+    Proceso que permite quitar informacion de un archivo
+    TIpos:
+        -Logica: no libera espacio
+            Ventaja:anular o deshacer un cambio
+            Algoritmo:
+                se sabe que existe
+                se avanza hasta el elemento
+                se genera marca de borrado
+                se borra logicamente el elemetno
+            
+        -Fisica: libera espacio
+            Ventaja: El archivo tendra el espacio minimo que necesita
+            Desventaja: costo llevar a cabo el algoritmo
+            Tecnicas;
+                Generar un nuevo archivo con los elementos validos sin copair lo que se desea elmininar
+                Utilizar el mismo archivo, moviendo el ultimo al lugar del elemento a borrar, y cambiando el EOF (archivos sin orden)
+            Algoritmo:
+                se sabe que existe
+                se copian los registro previos
+                se descarta el elemento a borrar
+                se copian los registros previos
+    
+    Tecnicas de recuperacion de espacio
+    Recuperacion de espacio: compactacion del archivo (Borro los elementos qye estan como borrados)
+    Reasigancion de espacio: utilizo los lugares indicados como eliminados para el ingreso de nuevos elementos al rchivo
+        Lista invertida:
+            Registro cabecera que tiene el ultimo registro que se Borro
+            
+            guardo la cabecera en elemento a borrar
+            busco el elemetno y lo marco
+            guardo el puntero de lugar borrado en la cabecera
+            
+            
+
+

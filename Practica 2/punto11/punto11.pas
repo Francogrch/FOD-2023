@@ -80,10 +80,10 @@ begin
 			actual_d.cantE:=actual_d.cantE + reg_d.cantE;
 			minimo(a_reg,a_d,reg_d);
 		end;
-		leer_m(m,reg_m);
+		leer_m(m,reg_m);//UsarRead
 		while (reg_m.nom <> actual_d.nom) do
 		begin
-			leer_m(m,reg_m);
+			leer_m(m,reg_m);// Usar Read directamente
 		end;
 
 		reg_m.cantA:=reg_m.cantA+actual_d.cantA;
