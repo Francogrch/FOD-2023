@@ -62,6 +62,38 @@ begin
 			imprimir(f)
 	end;
 end;
+procedure elimianrFlor(var a:tArchFlores; flor:reg_flor);
+var
+	act:reg_flor;
+	encontre:boolean;
+	pos,posCa:integer;
+begin
+	encontre:=false;
+	leer(a,act);
+	posCa:=act.codigo;
+	while not(encontre) and (act.codigo <> valor_alto) do
+	begin
+		if (act.codigo = flor.codigo) then
+			encontre:=true;
+		leer(a,act);
+	end;
+	if encontre then
+	begin
+		pos:=filepos(a)-1; // Guardo la posicion a eliminar
+		seek(a,pos);
+		read(a,act);
+		act.nombre:= '^' + act.nombre; //Modifico nombre
+		act.codigo:=posCa; //Swap con la cabecera
+		seek(a,pos);
+		write(a,act);
+		seek(a,0);
+		read(a,act);
+		act.codigo:=pos * -1;
+		seek(a,0);
+		write(a,act);
+	end;
+end;
+
 var
 	a:tArchFlores;
 begin
