@@ -1,4 +1,6 @@
 program punto3;
+const
+	valor_alto = 9999;
 uses
 	SysUtils;
 type
@@ -12,6 +14,13 @@ type
 		pre:integer;
 	end;
 	maestro = file of novela;
+procedure leer1(var m:maestro;var n:novela);
+begin
+	if not(eof(m))then
+		read(m,n)
+	else
+		n.cod:=valor_alto;
+end;
 procedure imprimirMenu(var e:char);
 begin
 	writeln('------------------MENU--------------------');
@@ -64,12 +73,12 @@ procedure puntoB(var m:maestro);
 		pos:integer;
 	begin
 		reset(m);
-		read(m,n);
+		read(m,n); //Leer <> valor_alto
 		if n.cod < 0 then
 		begin
 			pos:= n.cod * -1;
 			seek(m,pos);
-			read(m,n);
+			read(m,n); //Leer <> valor_alto
 			if (n.cod < 0) then
 			begin
 				seek(m,0);
@@ -99,9 +108,9 @@ procedure puntoB(var m:maestro);
 		reset(m);
 		encontre:= False;
 		leer(n);
-		while (not(encontre) and not(eof(m))) do
+		while (not(encontre) and act.cod <> valor_alto do
 		begin
-			read(m,act);
+			leer1(m,act);
 			if act.cod = n.cod then
 				encontre:=True;
 		end;
@@ -112,7 +121,7 @@ procedure puntoB(var m:maestro);
 		end;
 		close(m);
 	end;
-	procedure eliminar(var m:maestro);
+	procedure eliminar(var m:maestro); //Algoritmo dar baja CORREGIDO FUNCIONA PERFECTO
 	var
 		n:novela;
 		cod,pos,posVi:integer;
@@ -122,15 +131,16 @@ procedure puntoB(var m:maestro);
 		writeln('Codigo de novela a eliminar: ');
 		readln(cod);
 		encontre:= false;
-		read(m,n);
+		read(m,n);//Leer <> valor_alto
 		posVi:=n.cod;//PosicionVieja
-		pos:=0;
-		while not(encontre) and not(eof(m)) do
+		while not(encontre) and n.cod <> valor_alto do
 		begin
-			read(m,n);
+			leer1(m,n);
 			if (n.cod = cod) then
+			begin
 				encontre:=true;
-			pos:= pos + 1;
+				pos := filepos(m)-1;
+			end
 		end;
 		if encontre then
 		begin
@@ -162,9 +172,9 @@ begin
 	assign(txt,'novelas.txt');
 	reset(m);
 	rewrite(txt);
-	while not(eof(m)) do
+	while (n.cod <> valor_alto) do
 	begin
-		read(m,n);
+		leer1(m,n);
 		linea:= IntToStr(n.cod) +' '+ n.gen +' '+ n.nom +' '+ IntToStr(n.dur) +' '+ n.dire +' '+ IntToStr(n.pre);
 		writeln(txt,linea);
 	end;
