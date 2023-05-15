@@ -1,0 +1,58 @@
+Arbol B (orden 5):
+min = (5//2)-1 = 1
+Operaciones: -76, -400, +900, +12
+política izquierda
+
+nodo 2: 3 i 0(76)4(300)1(600)3
+nodo 0: 4 h(21)(45)(46)(70)
+nodo 4: 2 h(100)(200)
+nodo 1: 1 h(400)
+nodo 3: 2 h(700)(800)
+
+-------------------------------------------------------------------------
+		_2: 0 (76) 4(300) 1 (600) 3
+_0:(21)(45)(46)(70) _4:(100)(200) _1:(400) _3:(700)(800)
+
+
+-------------------------------------------------------------------------
+(-76)
+Leo el nodo raiz, esta ahi
+Busco el mas pequenio del hijo derecho, es el 100, lo reemplazo, no hay underflow porque el minimo es 1
+
+		_2: 0 (100) 4 (300) 1 (600) 3
+_0:(21)(45)(46)(70) _4:(200) _1:(400) _3:(700)(800)
+
+L/E: L2,L4,E4,E2
+-------------------------------------------------------------------------
+(-400)
+Leo el nodo _2 busco un valor mas grande, voy al hijo izquierdo, encuntro el valor
+Es hoja, por ende elimino el valor.
+Hay underflow en nodo _1
+redistribuyo con hermano izquierdo, no puede porque esta en el minimo, por ende se fusionan
+en el nodo _4:(200)(300) y se libera nodo _1
+
+
+		_2: 0 (100) 4 (600) 3
+_0:(21)(45)(46)(70) _4:(200)(300) _3:(700)(800)
+
+L/E:L2,L1,L4,E2,E1
+-------------------------------------------------------------------------
+(+900)
+Se lee nodo 2 y nodo 3, se agrega sin problema en nodo 3
+		_2: 0 (100) 4 (600) 3
+_0:(21)(45)(46)(70) _4:(200)(300) _3:(700)(800)(900)
+
+L/E: L2,L3,E3
+-------------------------------------------------------------------------
+(+12)
+Se lee nodo 2, 0
+Se intenta agregar, hay overflow
+(12)(21)|(45)|(46)(70) se promociona el 45
+se crea nodo _5: (46)(70)
+se agrega a nodo _2
+
+		_2: 0 (45) 5 (100) 4 (600) 3
+_0:(12)(21)  _5: (46)(70) _4:(200)(300) _3:(700)(800)(900)
+
+L/E: L2,L0,E5,E0,E2
+
