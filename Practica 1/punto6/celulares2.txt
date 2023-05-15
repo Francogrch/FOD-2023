@@ -1,0 +1,12 @@
+1 30.10  Motorola
+10 5  Nuevo
+g200
+2 35.00  Samsung
+5 10  Usado
+A54
+5 54.50  Samsung
+3 5  Nuevo
+FoldZ
+10 140.00  Samsung
+5 5  Nuevo
+A32

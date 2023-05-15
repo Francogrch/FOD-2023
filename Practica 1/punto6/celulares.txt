@@ -1,0 +1,12 @@
+01 30.1 Motorola
+10 5 Nuevo
+g200
+02 35 Samsung
+5 10 Usado
+A54
+05 54.5 Samsung
+3 5 Nuevo
+FoldZ
+10 140 Samsung
+5 5 Nuevo
+A32
