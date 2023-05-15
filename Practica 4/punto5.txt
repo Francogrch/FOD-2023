@@ -1,0 +1,55 @@
+Arbol B (orden 5):
+			_2: 0 (220) 1 (390) 4 (455) 5 (541) 3
+
+_0: (10)(150) _1: (225)(241)(331)(360) _4: (400)(407) _5: (508)(533) _3: (690)(823)
+
+Operaciones: +320, -390, -400, -533
+underflow debe utilizar política a izquierda.
+---------------------------------------------------------------------------------'
+(+320)
+Va al nodo raiz busca el primer valor mayor a 320 y se queda con el nodo izquierdo que es el nodo 1
+va al nodo 1 esta lleno, por ende:
+Se crea un nuevo nodo, la primera mitad de las claves se mantiene en el nodo con overflow
+La segunda mitad de las claves se traslada al nuevo nodo, la menor de las claves de la segunda mitad se promociona al nodo padre
+(225)(241)|(+320)|(331)(360)
+	1:(225)(241)
+	6:(331)(360)(390)
+Hay overflow en raiz por ende se divide y aumenta la altura del arbol
+(220)(320)|(390)|(455)(541)
+	2: 0 (220) 1 (320) 6
+	8: 4 (455) 5 (541) 3
+				_8: 2 (390) 7
+	_2: 0 (220) 1(320) 6 			_7: 4 (455) 5 (541) 3
+_0: (10)(150) _1: (225)(241) _6:(331)(360) 	_4: (400)(407) _5: (508)(533) _3: (690)(823)
+
+
+---------------------------------------------------------------------------------
+(-390)
+Busca el elemento 390 y se reemplaza por el menor elemento del subarbol derecho(entero), en este caso 400
+
+
+				_8: 2 (400) 7
+	_2: 0 (220) 1(320) 6 			_7: 4 (455) 5 (541) 3
+_0: (10)(150) _1: (225)(241) _6:(331)(360) 	_4:(407) _5: (508)(533) _3: (690)(823)
+---------------------------------------------------------------------------------
+(-400)
+Busca el elemento 400, se reeemplaza por el menor elemento del subarbol derecho, en este caso 407
+8: 2 (407) 7
+hay underflow en el nodo 4
+Se intenta redistribuir con el nodo adyacente izquierdo, como es hoja y no tiene se redistribuye con el nodo hermano 5
+(455)|(508)|(533)
+				_8: 2 (400) 7
+	_2: 0 (220) 1(320) 6 			_7: 4 (508) 5 (541) 3
+_0: (10)(150) _1: (225)(241) _6:(331)(360) 	_4:(455) _5:(533) _3: (690)(823)
+---------------------------------------------------------------------------------
+(-533)
+Se busca el nodo 533, esta en un nodo hoja, se trata de redistribuir con el hermano izquierdo y no se puede
+ya que tiene el minimo, entonces se fusionan (el padre con el hijo) y se libera el nodo 5
+
+_7: 4(541)3
+_4: (455)(533)
+				_8: 2 (400) 7
+		_2: 0 (220) 1(320) 6 			_7: 4 (541) 3
+_0: (10)(150) _1: (225)(241) _6:(331)(360) 	_4:(455)(508) 		_3: (690)(823)
+
+---------------------------------------------------------------------------------

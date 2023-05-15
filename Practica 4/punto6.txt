@@ -1,0 +1,60 @@
+Arbol B orden 4:
+	_2: 0 (66) 1
+_0: (22)(32)(50) _1: (77) (79) (92)
+
+Operaciones: +5, +9, +80, +51, -50, -92.
+Política de resolución de underflows: derecha.
+------------------------------------------------------------------------
+(+5)
+El primer elemento mas grande es 66 se va al nodo izquierdo (0)
+nodo 0 esta lleno, hay overflow se divide y se promociona el 32
+(5)(22)|(32)|(50)
+nuevo nodo 3
+_3: (50)
+
+	_2: 0 (32) 3 (66) 1
+_0: (5)(22)  _3:(50)  _1: (77) (79) (92)
+------------------------------------------------------------------------
+(+9)
+El primer elemento mas grande es 32, va al nodo izquierdo y se agrega
+
+	_2: 0 (32) 3 (66) 1
+_0: (5)(9)(22)  _3:(50)  _1: (77) (79) (92)
+
+------------------------------------------------------------------------
+(+80)
+va al primer elemento mas grande, no hay, va al ultimo nodo
+esta lleno hay overflow
+se divide y se promociona el 80
+(77) (79) | (80) | (92)
+se crea nodo nuevo
+_4: (92)
+	    _2: 0 (32) 3 (66) 1 (80) 4
+_0: (5)(9)(22)  _3:(50)  _1:(77)(79)   _4:(92)
+------------------------------------------------------------------------
+(+51)
+Va al primer valor mas grande (66) va al nodo izqerdo, se agrega
+
+	    _2: 0 (32) 3 (66) 1 (80) 4
+_0: (5)(9)(22)  _3:(50)(51)  _1:(77)(79)   _4:(92)
+------------------------------------------------------------------------
+(-50)
+Va al primer valor mas grande (66) va al nodo izqerdo, se elimina
+
+	    _2: 0 (32) 3 (66) 1 (80) 4
+_0: (5)(9)(22)  _3:(51)  _1:(77)(79)   _4:(92)
+
+------------------------------------------------------------------------
+(-92)
+Busca el valor mas grande, no hay, va al nodo mas derecho
+borra el 92, se produce underflow en el nodo 4
+se intenta redistribuir con el nodo derecho, no puede entonces redistribuye con el otro
+(77)|(79)|(80)
+promocion 79
+se modifica nodo _2, _1 y _4
+
+	    _2: 0 (32) 3 (66) 1 (79) 4
+_0: (5)(9)(22)  _3:(51)  _1:(77)   _4:(80)
+
+------------------------------------------------------------------------
+

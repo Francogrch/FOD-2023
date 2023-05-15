@@ -1,0 +1,71 @@
+Arbol B (Orden 5):
+		_2: 0 (315) 1 (485) 4 (547) 5 (639) 3
+_0: (148)(223) _1: (333)(390)(442)(454) _4: (508)(511) _5: (614)(633) _3: (789)(915)
+
+Política de resolución de underflows: derecha.
+
+Operaciones:+450, -485, -511, -614.
+
+--------------------------------------------------------------------------------------
+(+450)
+Busca el valor mas pequenio va al nodo izquierdo (1)
+intenta agregar, hay overflow se divide y promociona el 442
+(333)(390)|1(442)6|(450)(454)
+Se crea nodo nuevo
+_6:(450)(454)
+Se modifica:
+_1: (333)(390)
+
+Intenta agregarlo al nodo _2 hay overflow, se divide y promociona aumentando la altura del arbol
+(315)(442)|(485)|(547)(639)
+se crean dos nodos nuevo:
+_8:(485)
+_7:(547)(639)
+se modifican:
+_2:(315)(442)
+
+				_8: 2(485)7
+		_2:0 (315) 1 (442) 6 		_7:4 (547) 5 (639) 3
+
+_0: (148)(223) _1:(333)(390)  _6:(450)(454)  _4:(508)(511) _5:(614)(633) _3:(789)(915)
+
+
+--------------------------------------------------------------------------------------
+(-485)
+Se busca el valor, esta en la raiz, se busca el menor valor del sub arbol derecho, es el 511, se modifica nodo _8 y _5
+_8: 2 (508) 7
+_5:(511)
+No hay underflow ya que el minimo es 1.
+				_8: 2(508)7
+		_2:0 (315) 1 (442) 6 		_7:4 (547) 5 (639) 3
+
+_0: (148)(223) _1:(333)(390)  _6:(450)(454)  _4:(511) _5:(614)(633) _3:(789)(915)
+
+--------------------------------------------------------------------------------------
+(-511)
+Se lee nodo: 8,7,4 se encuntra
+se elimina, hay underflow, se distribuye con hermano derecho
+(547)|(614)|(633)
+Se promociona (614)
+Se escribe en nodo 7,4,5
+				_8: 2(508)7
+		_2:0 (315) 1 (442) 6 		_7:4 (614) 5 (639) 3
+
+_0: (148)(223) _1:(333)(390)  _6:(450)(454)  _4:(547) _5:(633) _3:(789)(915)
+
+--------------------------------------------------------------------------------------
+(-614)
+Se lee nodo: 8,7 se encuentra
+se cambia por el menor valor del sub arbol derecho (633)
+_7:4 (633) 5 (639) 3
+Hay overflow, se redistribuye con el nodo hermano derecho
+(639)|(789)|(915) se promociona el 789
+Se modifica:
+_7:4 (614) 5 (789) 3
+_5:(639) _3:(915)
+
+				_8: 2(508)7
+		_2:0 (315) 1 (442) 6 		_7:4 (633) 5 (789) 3
+
+_0: (148)(223) _1:(333)(390)  _6:(450)(454)  _4:(547) _5:(639) _3:(915)
+--------------------------------------------------------------------------------------

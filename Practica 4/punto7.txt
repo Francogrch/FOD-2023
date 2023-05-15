@@ -1,0 +1,48 @@
+Arbol B (orden 6):
+	0: (34) (56) (78) (100) (176)
+
+Operaciones: +15, +71, +3, +48, -56, -71.
+
+Política de resolución de underflows: derecha o izquierda.
+-----------------------------------------------------------
+(+15)
+Hay overflow en nodo raiz, se divide y se promociona el 78
+(15) (34) (56) |(78)| (100) (176)
+	2_:0(78)1
+_0:(15) (34) (56) _1:(100) (176)
+-----------------------------------------------------------
+(+71)
+Se busca el mayor, va por el nodo izquierdo, lo agrega sin problemas
+	2_:0(78)1
+_0:(15)(34)(56)(71) _1:(100) (176)
+-----------------------------------------------------------
+(+3)
+Busca el mayor, va por el izquierdo, lo agrega sin problemas
+		2_:0(78)1
+_0:(3)(15)(34)(56)(71) _1:(100) (176)
+-----------------------------------------------------------
+(+48)
+Busca el mayor va por el izquierdo, hay overflow, se divide y promociona el 48
+(3)(15)(34) |(48)| (56)(71)
+Se genera un nuevo nodo
+	2_ 0 (48) 3 (78) 1
+_0:(3)(15)(34) _3:(56)(71) _1:(100)(176)
+-----------------------------------------------------------
+(-56)
+Se busca la clave mayor, va al nodo izquerdo, elimina el valor
+hay underflow se redistribuye con el nodo derecho, no puede porque tiene el minimo
+se redistribuye copn el derecho izquierdo
+(3)(15)|(34)|(48)(71)
+	2_: 0 (34) 3 (78) 1
+_0:(3)(15) _3:(48)(71) _1:(100)(176)
+-----------------------------------------------------------
+(-71)
+Busca la clave mayor, va al nodo izquierdo (3)
+elimina hay underflow en el nodo 3
+trata de redistribuir con el nodo derecho, no puedo, prueba con el izquierdo, no puede
+Se fuciona el padre(y sus hijos) con el hermano adyacente izquierdo
+_3:(48)(78)(100)(176)
+se libera el nodo _1
+
+	2_: 0 (34) 3  
+_0:(3)(15) _3:(48)(78)(100)(176)
