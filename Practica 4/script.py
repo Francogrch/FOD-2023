@@ -3,7 +3,7 @@ import os
 """
 
 num = input('Ingrese el numero de practica: ')
-header = f"Arbol {input('Ingrese el tipo de arbol: ')} - Orden: {input('Ingrese el orden: ')} - Overflow: {input('Politica de Overflow: ')}"
+header = f"Arbol {input('Ingrese el tipo de arbol: ')} - Orden: {input('Ingrese el orden: ')}- Underflow: {input('Politica de Overflow: ')}"
 #STRING = "+80, +50, +70, +120, +23, +52, +59, +65, +30, +40, +45, +31, +34, +38, +60, +63, +64, -23,-30, -31, -40, -45, -38."
 string = input('Operaciones (separada por coma): ')
 NAME_FILE = "punto" + str(num) + ".txt"
