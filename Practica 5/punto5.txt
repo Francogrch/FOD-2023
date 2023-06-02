@@ -1,0 +1,89 @@
+5.
+Operaicones: +12, +45, -70, -56.
+Resolucion: Saturación progresiva.
+Funcion hash: f(x) = x MOD 11
+Tabla:
+Dirección  Clave    Clave
+    0        44
+    1        23      56
+    2        24
+    3              
+    4        70
+    5        60
+    6        50
+    7        84
+    8
+    9        42
+    10       21      65
+----------------------------------------------------------------
+(+12)
+f(12) = 1
+va a la cubeta 1, hay colision y desborde
+va a la cubeta 2, la ubica ahi con marca de instruso
+Dirección  Clave    Clave
+    0        44
+    1        23      56
+    2        24      /12
+    3              
+    4        70
+    5        60
+    6        50
+    7        84
+    8
+    9        42
+    10       21      65
+
+----------------------------------------------------------------
+(+45)
+f(45)=1
+Lee dir 1 esta llena, lee dir 2 esta llena, lee dir 3. la escribe ahi con marca de instruso
+Dirección  Clave    Clave
+    0        44
+    1        23      56
+    2        24      /12
+    3       /45
+    4        70
+    5        60
+    6        50
+    7        84
+    8
+    9        42
+    10       21      65
+----------------------------------------------------------------
+-70
+f(70)=4
+lee 4, y lo borra
+Dirección  Clave    Clave
+    0        44
+    1        23      56
+    2        24      /12
+    3       /45
+    4        
+    5        60
+    6        50
+    7        84
+    8
+    9        42
+    10       21      65
+---------------------------------------------------------------
+-56
+f(56) = 1
+Lee cubeta 1, esta llena, lo encuntra, lee cubeta 2 esta llena, escribe cubeta 1 con marca de borrado
+Borra el 56
+    0        44
+    1        23      ####
+    2        24      /12
+    3       /45
+    4        
+    5        60
+    6        50
+    7        84
+    8
+    9        42
+    10       21      65
+
+----------------------------------------------------------
+Densidad de Empaqutamiento:
+Cantidad insertado / Cantidad Total espacio
+
+DE: 11 / (11*2) = 11 / 22 = 0.5 * 100 = 50%

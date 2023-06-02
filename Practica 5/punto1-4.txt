@@ -1,0 +1,30 @@
+1. Una funcion de dispersion es una caja negra, donde tiene un input de una clave y un output de una direccion fisica donde se almacenara el registro.
+Otra definicion puede ser, que transforma un valor que representa una llave primaria de un registro, en otro valor dentro de un determinado rango, y este ultimo se como direccion fisica de acceso para insertar el registro en ael archivo de datos
+
+Funciones de dispersion:
+- Utilizacion del modulo de la division con alguna otra operacion f(x) = x mod x/2
+- Sumar digito de la clave f(x) = x+2
+- Multiplico primer y ultimo digito y lo divido por el medio
+
+2. Sinonimo: es cuando la funcion retorna la misma direccion de memoria que otra clave
+Colision: Ocurre cuando dentro de una direccion hay por lo menos un valor y se intenta insertar otro
+Desborde: Ocurre cuando la direccion de memoria esta llena, y se intenta insertar un registro
+
+3. La densidad de empaquetamiento es la relacion entre el espacio disponible y la cantidad de registros que se pueden almacenar. Funcion:
+Cantidad de Registros insertados / Cantidad total de espacio
+
+4.Tecnicas de resolucion de colisiones:
+Saturación progresiva
+    Al momento que halla una saturacion va  a buscar secuencialmente una cubeta que tenga un espacio
+
+Saturación progresiva encadenada:
+    Ademas de los registros, cada cubeta tiene un enlace (puntero), para las claves sinonimas
+    Al momento de saturacion se busca secuencialmente, una cubeta vacia, y se guarda esa direccion en la que originalmente iba.
+    Al momento que halla una saturacion y la clave sea un intruso, ese valor se reacomoda 
+
+Saturación progresiva encadenada con área de desborde separada:
+    Igual que Saturacion progresiva  encadenada pero al momento de Overflow se guarda la direccion en otro archivo
+
+Dispersión doble: 
+    Se resuelven overflows aplicando una segunda función de dispersion a la clave para producir un desplazamiento. 
+    La segunda funcion se suma a la primera (dirección original) tantas veces como sea necesario hasta encontrar una dirección con espacio. 
