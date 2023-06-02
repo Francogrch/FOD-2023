@@ -1,0 +1,136 @@
+Se debe crear y cargar un archivo directo con capacidad para 2 registros con
+dispersión doble para organizar registros en saturación, con los 9 registros cuyas claves
+se listan a continuación y de manera que su densidad de empaquetamiento resulte del
+75%: +347, +498, +729, +222, +113, +885, +431, +593, +709.
+Usar como segunda función de dispersión el módulo 5 más 1.
+
+f1(x) = x ?
+f2(x) = x MOD 5 + 1
+DE = 75% = 0.75
+ 9 / (x2) = 0.75
+ 2x . 0.75 = 9
+ (9 / 0.75) / 2 = x
+6 = x
+6 direcciones
+
+f1(x) = x MOD 6
+
+Direccion Clave Clave
+    0
+    1
+    2
+    3
+    4
+    5
+
+------------------------------------------------
++347
+f1(347) = 5
+f2(347) = 3
+L5,E5
+Direccion Clave Clave
+    0
+    1
+    2
+    3
+    4
+    5     347
+
+------------------------------------------------
++498
+f1(498) = 0
+f2(498) = 4
+L0,E0
+Direccion Clave Clave
+    0      498
+    1
+    2
+    3
+    4
+    5      347
+
+------------------------------------------------
++729
+f1(729) = 3
+f2(729) = 5
+L3,E3
+Direccion Clave Clave
+    0      498
+    1
+    2
+    3      729
+    4
+    5      347
+------------------------------------------------
++222
+f1(222) = 0
+f2(222) = 3
+L0,E0
+Direccion Clave Clave
+    0      498   222
+    1
+    2
+    3      729
+    4
+    5      347
+------------------------------------------------
++113 
+f1(113) = 5
+f2(113) = 4
+L5,E5
+Direccion Clave Clave
+    0      498   222
+    1
+    2
+    3      729
+    4
+    5      347   113
+------------------------------------------------
++885
+f1(885) = 3
+f2(885) = 1
+L3,E3
+Direccion Clave Clave
+    0      498   222
+    1
+    2
+    3      729
+    4
+    5      347   113
+------------------------------------------------
++431 
+f1(431) = 5
+f2(431) = 2
+L5,L1,E1
+Direccion Clave Clave
+    0      498   222
+    1     /431
+    2
+    3      729
+    4
+    5      347   113
+------------------------------------------------
++593
+f1(593) = 5
+f2(593) = 4
+L5,L1,E1
+Direccion Clave Clave
+    0      498   222
+    1     /431  /593
+    2
+    3      729
+    4
+    5      347   113
+------------------------------------------------
++709
+f1(709) = 1
+f2(709) = 5
+L1,L0,L4,E4
+Direccion Clave Clave
+    0      498   222
+    1     /431  /593
+    2
+    3      729
+    4     /709
+    5      347   113
+------------------------------------------------
