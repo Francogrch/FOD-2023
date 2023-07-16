@@ -38,7 +38,7 @@ Busca el elemento 400, se reeemplaza por el menor elemento del subarbol derecho,
 hay underflow en el nodo 4
 Se intenta redistribuir con el nodo adyacente izquierdo, como es hoja y no tiene se redistribuye con el nodo hermano 5
 (455)|(508)|(533)
-				_8: 2 (400) 7
+				_8: 2 (407) 7
 	_2: 0 (220) 1(320) 6 			_7: 4 (508) 5 (541) 3
 _0: (10)(150) _1: (225)(241) _6:(331)(360) 	_4:(455) _5:(533) _3: (690)(823)
 ---------------------------------------------------------------------------------
@@ -48,7 +48,7 @@ ya que tiene el minimo, entonces se fusionan (el padre con el hijo) y se libera 
 
 _7: 4(541)3
 _4: (455)(533)
-				_8: 2 (400) 7
+				_8: 2 (407) 7
 		_2: 0 (220) 1(320) 6 			_7: 4 (541) 3
 _0: (10)(150) _1: (225)(241) _6:(331)(360) 	_4:(455)(508) 		_3: (690)(823)
 

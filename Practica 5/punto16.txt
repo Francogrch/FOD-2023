@@ -1,0 +1,4 @@
+punto16
+1 Darin     00111111 2 Alterio     11110100
+3 Sbaraglia 10100101 4 De la Serna 01010111
+5 Altavista 01101011 6 Grandinetti 10101010
